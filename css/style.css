@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  border: 0;
+}
+
+
+.header {
+  /* border: 4px solid black;   */
+  background-image: url("../images/game1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+}
+
+.blur{
+  backdrop-filter: blur(5px);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: aliceblue;
+}
+
+.header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: aqua;
+
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.header ul li a {
+  display: block;
+  padding: 20px;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: medium;
+  color: bisque;
+  text-shadow: 5px 5px 5px black;
+
+  font-weight: 800;
+}
+
+.header ul li a:hover {
+  color: aliceblue;
+}
+
+.section {
+  /* border: 4px solid black; */
+  /* background-color: black; */
+  text-align: center;
+  color: rgb(44, 48, 48);
+  padding: 20px;
+
+}
+
+.flex-container {
+  display: flex;
+  /* border: 3px solid black; */
+  color: aqua;
+  /* background-color: black; */
+  justify-content: center;
+}
+
+.flex-container>.box {
+  width: 200px;
+  height: 400px;
+  padding: 30px;
+  margin: 20px;
+  /* background-color: red; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+}
+
+.box h1{
+  position: absolute;
+  bottom: 1px;
+  text-shadow: 0px 0px 5px black;
+}
+
+.flex-container2 {
+  display: flex;
+  /* border: 3px solid black; */
+  color: aqua;
+  /* background-color: black;  */
+  justify-content: center;
+}
+
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center img{
+  height: 200px;
+}
+
+.center img:first-child{
+  border-radius: 100px 0px 0px 100px;
+}
+
+.center img:last-child{
+  border-radius: 0px 100px 100px 0px;
+}
+
+.body{
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/bg-1.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.body .c-card{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color:rgb(4, 204, 214);
+}
+
+.body .c-card .title{
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  height: fit-content;
+  padding: 10px;
+}
+
+.c-body{
+  padding: 20px;
+}
+
+.body .c-card .row{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
